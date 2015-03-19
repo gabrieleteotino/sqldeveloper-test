@@ -4,7 +4,7 @@ SELECT
 	'Nome = "' || NOME || '", ' ||
 	'Sesso = "' || SESSO || '", ' ||
 	'CF = "' || CODICE_FISCALE || '", ' ||
-	'DataDiNascita = new DateTime(' || TO_CHAR(DATA_NASCITA,'YYYY, MM, DD') || ')", ' ||
+	'DataDiNascita = new DateTime(' || TO_CHAR(DATA_NASCITA,'YYYY, MM, DD') || '), ' ||
 	'Residenza = "' || INDIRIZZO_RES || ' ' ||	NCIVICO_RES || ', ' || CAP_RES || ' '  || COM_DES_RES || '", ' ||
 	'MedicoCompetenteCod = "' || 	MEDICO_COD || '", ' ||
 	'MedicoCompetenteNome = "' || MEDICO_DES || '", ' ||
